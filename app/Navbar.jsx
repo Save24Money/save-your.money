@@ -13,7 +13,7 @@ export default function Navbar() {
             <h1 className="inline-block text-xl py-2 font-medium md:hidden">save your money</h1>
             <ul className="transition-all float-right list-none md:fixed md:w-screen md:float-none md:h-12 md:bg-secundary-500 md:top-[-50px] md:left-0 md:text-center peer-checked:md:top-[48px]">
                 <li className="inline-block py-2 mx-2">
-                    <a href="#" className="leading-8 bg-secundary-300 rounded px-1">Kurse</a>
+                    <a href="#" className="leading-8 bg-opacity-10 rounded px-1">Kurse</a>
                 </li>
                 <li className="inline-block py-2 mx-2">
                     <a href="#" className="leading-8 bg-secundary-300 rounded px-1">Bücher</a>
