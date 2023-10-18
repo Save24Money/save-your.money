@@ -9,14 +9,15 @@ export default function Navbar() {
             <label htmlFor="navbar-check" className="">
                 <svg className="hidden float-right h-6 my-3 mx-3 cursor-pointer fill-primary-900 md:inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
             </label>
-            <Image src={transparentLogo} width={130} height={130} className="hidden  md:inline-block" />
+            <Image src={transparentLogo} width={130} height={130} alt="save your money" className="hidden  md:inline-block" />
             <h1 className="inline-block text-xl py-2 font-medium md:hidden">save your money</h1>
             <ul className="transition-all float-right list-none md:fixed md:w-screen md:float-none md:h-12 md:bg-secundary-500 md:top-[-50px] md:left-0 md:text-center peer-checked:md:top-[48px]">
-                <li className="inline-block py-2 mx-2">
-                    <a href="#" className="leading-8 bg-opacity-10 rounded px-1">Kurse</a>
+                <li className=" cursor-pointer transition-all text-center inline-block m-2 bg-transparent-100 rounded w-14 hover:bg-transparent-200">
+                    <a href="#" className="leading-8 px-1">Kurse</a>
                 </li>
-                <li className="inline-block py-2 mx-2">
-                    <a href="#" className="leading-8 bg-secundary-300 rounded px-1">Bücher</a>
+                <li className=" cursor-pointer transition-all text-center inline-block m-2 rounded bg-transparent-100 w-14 hover:bg-transparent-200">
+                
+                    <a href="#" className="leading-8 px-1">Bücher</a>
                 </li>
             </ul>
         </div>
